@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Icon -->
+    <link rel="icon" href="assets/logo.png" />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Joseph James | Portfolio</title>
+  </head>
+  <body>
+      
+      <div class="logo">
+        <a href="#">JOSEPH</a>
+      </div>
+
+      <header>
+      <nav>
+        <a href="#main-container">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#education">Education</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="extra-nav">
+        <a href="#contact">
+        <button>Get In Touch</button>
+      </a>
+      </div>
+
+        <!-- Hamburger Menu -->
+        <div id="menu" class="hamburger-menu">
+          <svg
+            width="35px"
+            height="35px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 18L20 18"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M4 12L20 12"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M4 6L20 6"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        
+        <div id="nav-mobile" class="mobile-nav">
+          <div id="close-mobile" class="close">
+            <svg
+              width="35px"
+              height="35px"
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line x1="7" y1="7" x2="25" y2="25" stroke="#ffffff" stroke-width="2" />
+              <line x1="7" y1="25" x2="25" y2="7" stroke="#ffffff" stroke-width="2" />
+            </svg>
+          </div>
+          <ul>
+            <li><a class="nav-link" href="#main-container">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skill">Skill</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#project">Project</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section>
+      <div class="main-container" id="main-container">
+        <div class="image">
+          <img src="image/grad.PNG" alt="profile" />
+        </div>
+        <div class="content">
+          <h1 data-aos="fade-left">
+            Hey, I'm <span>Joseph</span>
+          </h1>
+          <p class="typewriter">
+            I'm a <span id="changing-text"></span>
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/sip022423"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100078052962186">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/josephjames-alcedo-324797333/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_jzyp/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="buttons">
+            <a href="#contact"><button class="btn-primary">Hire Me</button></a>
+            <a href="Alcedo,JosephJames-resume.pdf" download><button class="btn-secondary">Download CV</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            About Me
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="image/profile1.jpg" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+                <p>
+                I am a dedicated and driven fresh graduate eager to apply my knowledge and skills in a dynamic work environment.
+                 I am passionate about continuous learning and open to training opportunities that will help me grow both personally and professionally.
+                  With a strong willingness to hone my abilities, I aim to stay adaptable and productive in any role I take on. I also enjoy sharing knowledge and collaborating with 
+                  others to achieve common goals. <br> <br>
+                  My ultimate goal is to contribute effectively to the success of the company I become a part of. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="200" class="title">Skill</h1>
+          
+          <!-- ONE skills container -->
+          <div class="skills" data-aos="zoom-in-down" data-aos-delay="100">
+            
+            <!-- HTML -->
+            <div class="skill-box" data-percent="90">
+              <img src="image/html.png" alt="HTML" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 90;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">90%</text>
+                </svg>
+              </div>
+              <div class="skill-name">HTML</div>
+            </div>
+    
+            <!-- CSS -->
+            <div class="skill-box" data-percent="70">
+              <img src="image/css.png" alt="CSS" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 70;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">70%</text>
+                </svg>
+              </div>
+              <div class="skill-name">CSS</div>
+            </div>
+    
+            <!-- JavaScript -->
+            <div class="skill-box" data-percent="70">
+              <img src="image/js.png" alt="JavaScript" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 70;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">70%</text>
+                </svg>
+              </div>
+              <div class="skill-name">JavaScript</div>
+            </div>
+    
+            <!-- Java -->
+            <div class="skill-box" data-percent="80">
+              <img src="image/java.png" alt="Java" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 80;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">80%</text>
+                </svg>
+              </div>
+              <div class="skill-name">Java</div>
+            </div>
+    
+            <!-- C# -->
+            <div class="skill-box" data-percent="90">
+              <img src="image/c.png" alt="C#" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 90;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">90%</text>
+                </svg>
+              </div>
+              <div class="skill-name">C#</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+
+    <Section class="education" id="education">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Education
+          </h1>
+    
+          <div class="education-box">
+            <div data-aos="zoom-in-down" class="education-card">
+              <div class="card-image">
+                <img src="image/sti_logo.png" alt="STI alaminos" />
+              </div>
+              <div class="card-content">
+                <h1>STI alaminos</h1>
+                <p>Tertiary Graduate</p>
+                <p>2023 - 2025</p>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" class="education-card">
+              <div class="card-image">
+                <img src="image/acnhs.jpg" alt="ACNHS" />
+              </div>
+              <div class="card-content">
+                <h1>Alaminos City National Highschool</h1>
+                <p>Junior-Senior High School</p>
+                <p>2017 - 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Section>
+
+<!-- Project Section -->
+<section id="project" class="project">
+  <div class="container">
+    <div class="content">
+      <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+        Project
+      </h1>
+
+      <div class="projects"data-aos="fade-up" data-aos-delay="500">
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+    <!-- Modal for Project Details -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modal-body">
+          <!-- Project details will be dynamically inserted here -->
+        </div>
+      </div>
+    </div>
+    </section><section class="contact" id="contact">
+      <div class="title"><span>Contact Me</span></div>
+    
+      <div class="contact-container">
+        <!-- Left: Text Block -->
+        <div class="text-block"data-aos="zoom-in-down" data-aos-delay="300">
+          <h2 class="topic">Got any Projects?</h2>
+          <p>Let's work together to bring your ideas to life!</p>
+        </div>
+    
+        <!-- Right: Form Card -->
+        <div class="form-card1"data-aos="zoom-in-up" data-aos-delay="300">
+          <div class="form-card2">
+            <form class="form" action="https://formsubmit.co/josephjamesalcedo02@gmail.com" method="POST" id="contactForm">
+              <p class="form-heading">Get In Touch</p>
+          
+              <div class="form-field">
+                <input name="name" required placeholder="Name" class="input-field" type="text" />
+              </div>
+          
+              <div class="form-field">
+                <input name="email" required placeholder="Email" class="input-field" type="email" />
+              </div>
+          
+              <div class="form-field">
+                <input name="subject" required placeholder="Subject" class="input-field" type="text" />
+              </div>
+          
+              <div class="form-field">
+                <textarea name="message" required placeholder="Message" cols="30" rows="3" class="input-field"></textarea>
+              </div>
+          
+              <button class="sendMessage-btn" type="submit">Send Message</button>
+            </form>
+          
+            <!-- Success Message -->
+            <p id="successMessage" style="display: none; color: green; margin-top: 10px;">
+              Your message has been sent successfully!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <a href="">Joseph</a>
+          </div>
+          <!-- Short About -->
+          <p>
+          </p>
+          <div class="social-media-container">
+            <div class="social-media">
+              <a href="https://www.instagram.com/_jzyp/">
+                <i class="fa-brands fa-instagram" style="color: #fff; font-size: 1.5rem;"></i>
+              </a>
+            </div>
+            <div class="social-media">
+              <a href="https://www.facebook.com/profile.php?id=100078052962186">
+                <i class="fa-brands fa-facebook" style="color: #fff; font-size: 1.5rem;"></i>
+              </a>
+            </div>
+            <div class="social-media">
+              <a href="https://www.linkedin.com/in/josephjames-alcedo-324797333/">
+                <i class="fa-brands fa-linkedin" style="color: #fff; font-size: 1.5rem;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Created by <a href="#">Sip</a> | @All rights reserved 2025</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
